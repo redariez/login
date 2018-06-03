@@ -1,0 +1,83 @@
+body{
+  font-family: "roboto", sans-serif;
+  background: url("https://cdn.pixabay.com/photo/2017/01/18/16/46/hong-kong-1990268_1280.jpg");
+  background-size: cover;
+}
+
+.main-section{
+  margin:0 auto;
+  margin-top: 130px;
+  padding: 0;
+}
+
+.modal-content{
+  background-color: blue;
+  opacity: .92;
+  padding: 0 18px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.user-img{
+  margin-bottom: 35px;
+}
+
+.form-group{
+  margin-bottom: 25px;
+}
+
+.form-group input{
+  height: 42px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  padding-left: 54px;
+}
+
+.form-group::before{
+  font-family: "Font Awesome\ 5 Free";
+  content:"\f007";
+  position: absolute;
+  font-size: 22px;
+  color:#555360;
+  left: 28px;
+  padding-top: 4px;
+}
+
+.form-group:last-of-type::before{
+  content:"\f023";
+}
+
+button{
+  width: 40%;
+  margin: 5px 0 25px;
+}
+
+.btn{
+  background-color: #27c2a5;
+  color:#fff;
+  font-size: 19px;
+  padding:7px 14px;
+  border-radius: 5px;
+  border-bottom: 4px solid #219882;
+}
+
+.brn:hover, .btn:focus {
+  background-color: #25a890;
+  border-bottom: 4px solid #25a890;
+}
+
+.svg-inline--fa{
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+.forgot{
+  padding: 5px 0 25px;
+}
+
+.forogt a{
+  color: #c2fbfe;
+}
+ #nav{
+   background-color: red;
+ }
